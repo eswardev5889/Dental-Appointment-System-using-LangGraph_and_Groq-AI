@@ -7,8 +7,8 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent  # project root
 CSV_PATH = BASE_DIR / "doctor_availability.csv"
 
-GROQ_API_KEY = "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"
-MODEL_NAME = os.getenv("MODEL_NAME", "openai/gpt-oss-120b")
+GROQ_API_KEY = "Your_API_Key"
+MODEL_NAME = os.getenv("MODEL_NAME", "Model Name")
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0"))
 
 VALID_SPECIALIZATIONS = [
